@@ -1,0 +1,11 @@
+body {
+    background-image:url("h1.jpg");
+}
+header, footer, section, nav, li {
+    border: hsl(120, 95%, 43%) 3px solid
+}
+h1 {
+   background-image:url(90s\ bkg.jpg);
+   color: rgb(247, 231, 11);
+   text-align: center;
+}
