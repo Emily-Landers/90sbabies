@@ -1,12 +1,13 @@
 function getUserName(){
-    let userName = prompt('Are you a 90s baby?');
-
-    if(userName == 'No'){
-        document.write('Go Away!')
-    } else {
-        document.write('Welcome!')
+    let userName = prompt('What year were you born?');
+    console.log(userName)
+    while (parseInt(userName) <1990 || parseInt(userName) >1999) {
+      userName = prompt('What year were you born?')
     }
+        document.write('Welcome!')
+    
 } 
+
 function getPerson(){
     var person = prompt("Please enter your name");
     
@@ -23,3 +24,12 @@ function notlying(){
         txt = "You pressed Cancel!";
       }
     }
+
+function pictures90s(){
+  let pictures90 = prompt ('How many nostalgic pictures do you want to see?')
+  for(let i = 0; i <parseInt (pictures90); i++){
+    document.write("pictures 90 works") 
+  }
+}
+pictures90s()
+    
