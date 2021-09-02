@@ -1,4 +1,4 @@
-var person = prompt("Please enter your name", "John Smith");
+var person = prompt("Please enter your name");
 
 if (person != null) {
   document.getElementById("demo").innerHTML =
