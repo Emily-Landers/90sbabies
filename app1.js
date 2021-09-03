@@ -24,11 +24,15 @@ function notlying(){
         txt = "You pressed Cancel!";
       }
     }
-
+// control number img add 
 function pictures90s(){
   let pictures90 = prompt ('How many nostalgic pictures do you want to see?')
-  for(let i = 0; i <parseInt (pictures90); i++){
-    document.write("pictures 90 works") 
+  for(let i = 0; i <parseInt (pictures90); i++);
+
+  while((pictures90 < 1) || (pictures90 > 5)){
+    pictures90 = prompt ('Pick a number 1-5')
+    let url = "1.jpg";
+    document.write('<img src="' + url + '">'); 
   }
 }
 pictures90s()
