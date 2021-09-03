@@ -1,21 +1,24 @@
 body {
-    background-image:url("h1.jpg");
+    background-image:url(90s\ bkg.jpg);
 }
 header, footer, section, nav, li {
     border: hsl(0, 0%, 3%) 3px solid
 }
 h1 {
-   background-image:url(90s\ bkg.jpg);
+   background-color: black;
    color: rgb(247, 231, 11);
    text-align: center;
 }
 li {
     display: inline;
     padding: 10px;
-    margin: 10px 60px;
+    margin: 20px 150px;
 }
 img { 
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+h4 {
+    background-color: rgb(43, 128, 226);
 }

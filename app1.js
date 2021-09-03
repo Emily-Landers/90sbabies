@@ -31,7 +31,7 @@ function pictures90s(){
   }
 
   for(let i = 0; i < pictures90; i++){
-    let url = "3.jpg";
+    let url = "90s1.jpg";
     document.write('<img src="' + url + '">');
   }
 }
